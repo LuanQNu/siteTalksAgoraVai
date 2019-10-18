@@ -1,0 +1,105 @@
+
+.div_topo {
+    display: flex;
+    background:#FF8C00;
+/*    font-family: "Times New Roman", Times, serif;*/
+}
+
+.div_topo .div_topo_interna{
+    flex: 1;
+    color: white;
+    margin-left: 5%;
+}
+
+.div_topo .div_topo_interna h3{
+    text-align: right;
+    color: white;
+    margin-right: 5%;
+
+}
+
+/* -------------------------------------------------------- */
+.div_text_components {
+    display: flex;
+/*    font-family: "Times New Roman", Times, serif;*/
+/*    font-size: medium;*/
+}
+
+.div_text_components .div_text{
+    flex: 1;
+    color: #FF8C00;
+/*	font-size: 1.0em; */
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #FF8C00;
+    height: 185px;
+    min-height: auto;
+    min-width: auto;
+    overflow:auto;
+}
+.div_text_components .div_text .div_text_interno{
+    margin-left: 3%; 
+    text-align: justify;
+    font-size: 18.8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_text_components .div_components {
+    text-align: right;
+    color: white; 
+    margin-right: 5%;
+    width: 40%;
+}
+.div_text_center {
+    text-align: justify;
+    color: #FF8C00;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+/* --------------------------------------------------- */
+
+.div_footer {
+    display: flex;
+/*    font-family: "Times New Roman", Times, serif;*/
+/*    font-size: medium;*/
+}
+
+.div_footer .div_footer_text{
+    flex: 1;
+    color: #FF8C00;
+/*	font-size: 1.0em; */
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div_footer .div_footer_div_interna{
+    margin-right: 5%; 
+    width: 50%;
+}
+
+.div_footer .div_footer_div_interna .div_text_interno_mapa {
+    text-align: justify;
+    color: #FF8C00;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div_footer .div_footer_div_interna .div_text_interno_mapa {
+    margin-bottom: 3%;
+/*    background: black;*/
+    width: 100%;
+}
+
+/* ------------- Elemento do Sympla ----------------- */
+
+#sympla-widget-684020 {
+    height: 260px;
+}
+
+.carousel-inner img {
+    height: 550px;
+}
