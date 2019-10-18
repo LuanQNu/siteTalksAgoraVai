@@ -1,0 +1,15 @@
+*{margin: 0;}
+
+.Banner{float:left; width: 100%;}
+    .Banner img{width: 100%; vertical-align: middle;}
+
+.Nav{float:right; width: 40%; background: #000;}
+    .Nav li{float:right; width: 10%; text-align: center; list-style: none;}
+    .Nav a{display:block; width: 100%; padding: 10px 0; color:#fff; font-weight: bold; text-decoration: none; font-size: 20px;}
+    .Nav a:hover{background: #666;}
+
+.Content{float:left; width: 100%; padding: 15px; }
+
+.img_rodape{
+    width: 40px important;
+}
